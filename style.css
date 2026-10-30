@@ -88,26 +88,24 @@ a {
     
 }
 
-.sub-text{
+.sub-text {
     color: #E5E7EB;
     font-size: 18px;
     width: 420px
     
 }
 
-.buttons {
-    background-color: #3882F6;
-}
-button{
+button {
     background-color: #3882F6;
     padding: 8px 24px;
     color: white;
     font-weight: 600;
     font-size: 14px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: none;
 }
 
-.hero-content .right{
+.hero-content .right {
     background-color: grey;
     justify-content: center;
     color: white;
@@ -115,4 +113,113 @@ button{
     height: 240px;
     margin: 0;
     flex-shrink: 0;
+}
+
+.information-box {
+    padding: 48px 0 96px;
+}
+.information-header {
+    display: flex;
+    justify-content: center;
+    padding: 0 0 48px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.information-content {
+    display: flex;
+    justify-content: center;
+    gap:48px
+
+}
+
+.empty-box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid blue;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+    gap: 10px
+
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 885px;
+}
+
+.quote-box .name {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.call-to-action-box {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0
+}
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882F6;
+    padding: 0;
+    background-color: transparent;
+    
+}
+.call-to-action {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 32px 64px;
+    width: 1024px;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+
+.call-to-action-text .main-text{
+    font-size: 20px;
+}
+
+.call-to-action-text .sub-text{
+    font-size: 14px;
+    width: auto;
+}
+
+.call-to-action button{
+    border: 2px solid white;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    color: white;
+    background-color: #1F2937;
+    margin-top: auto;
 }
