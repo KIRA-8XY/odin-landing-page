@@ -22,9 +22,27 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 16px
+}
+
+li {
+    margin: 0;
 }
 
 a {
     text-decoration: none;
     color: grey;
+}
+
+.right, .left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    margin-right: 64px
+}
+
+.left {
+    margin-left: 64px;
 }
