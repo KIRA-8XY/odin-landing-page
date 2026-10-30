@@ -39,10 +39,69 @@ a {
     align-items: center;
 }
 
-.right {
+.header .right {
     margin-right: 64px
 }
 
-.left {
+.header .left {
     margin-left: 64px;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 64px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    padding: 16px;
+    gap: 32px;
+    width: 1000px
+}
+
+.hero-content .left {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+    min-width: 500px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.sub-text{
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 420px
+    
+}
+
+.buttons {
+    background-color: #3882F6;
+}
+button{
+    background-color: #3882F6;
+    padding: 8px 24px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.hero-content .right{
+    background-color: grey;
+    justify-content: center;
+    color: white;
+    width: 520px;
+    height: 240px;
+    margin: 0;
+    flex-shrink: 0;
 }
